@@ -14,8 +14,10 @@ EasyOCR se compose de trois composants principaux :
 1. **Extraction de fonctionnalités** : Utilise des modèles d'apprentissage en profondeur tels que ResNet et VGG. Ces modèles sont responsables de l'identification et de l'extraction des caractéristiques pertinentes du texte dans les images.
 2. **Étiquetage de séquence** : Utilise les réseaux LSTM (Long Short-Term Memory) pour interpréter le contexte séquentiel des entités extraites. Cela permet de comprendre la relation entre les caractères dans une séquence, ce qui est crucial pour une reconnaissance précise du texte.
 3. **Décodage** : Utilise l'algorithme de classification temporelle connexionniste (CTC) pour convertir les séquences de caractéristiques extraites en texte lisible. Le CTC permet de gérer les séquences de longueur variable et de produire le texte final reconnu.
-4. 
+   
+    ![image](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/918d7f9b-eb02-4d45-b655-4fdeb75440d1)
 
+                                             EasyOCR Framework
 ## Installation
 
 Pour installer EasyOCR, vous pouvez utiliser la commande suivante pour toutes les langues :
