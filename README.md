@@ -1,6 +1,6 @@
-**
+
 ## Reconnaissance Écriture Manuscrite (OCR) avec EasyOCR,Keras-OCR et tesseract
-**
+
 
 # 1:Reconnaissance Écriture Manuscrite (OCR) avec EasyOCR
 
@@ -45,11 +45,11 @@ Pour utiliser EasyOCR, vous devez importer les bibliothèques nécessaires pour 
 Voici quelques captures d'écran du projet :
 
 ![Exemple d'image 1](![easy_ocr](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/f4df1765-c9de-44ff-b4af-538f984a8771)
-*Description de l'image 1*
+
 
 ![Exemple d'image 2]![easy_ocr](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/798ad456-685b-40d8-a8d1-6663320a8e1d)
 
-*Description de l'image 2*
+
 
 ## Conclusion
 
@@ -123,10 +123,10 @@ Par défaut, la prédiction sera tracée sous forme de boîtes autour du texte d
 Voici quelques captures d'écran du projet :
 
 ![Exemple d'image 1]![Screenshot 2024-05-28 122128](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/745a208c-2d24-4148-97fc-339680b30b1d)
-*Description de l'image 1*
+
 
 ![Exemple d'image 2](path/to/your/image2.png)
-*Description de l'image 2*
+
 
 ## Conclusion
 
