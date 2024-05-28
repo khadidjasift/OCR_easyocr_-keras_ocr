@@ -217,6 +217,11 @@ PyTesseract est une bibliothèque puissante pour la reconnaissance de texte dans
 
 Pour plus d'informations, consultez la [documentation officielle de Tesseract](https://github.com/tesseract-ocr/tesseract) et de [PyTesseract](https://github.com/madmaze/pytesseract).
 
+ ## Voici quelque exemples:
+ ![image](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/3eaafcd0-c932-4a95-ac4c-cc045304fc2c)
+
+ ![Screenshot 2024-05-28 210055](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/550e0064-845a-492f-ae53- aebfd7014f69)
+
 
 
 
