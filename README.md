@@ -220,9 +220,7 @@ Pour plus d'informations, consultez la [documentation officielle de Tesseract](h
  ## Voici quelque exemples:
  ![image](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/3eaafcd0-c932-4a95-ac4c-cc045304fc2c)
 
- ![Screenshot 2024-05-28 210055](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/550e0064-845a-492f-ae53- 
-  aebfd7014f69)
-
+ ![Screenshot 2024-05-28 210055](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/550e0064-845a-492f-ae53-aebfd7014f69)
 
 
 
