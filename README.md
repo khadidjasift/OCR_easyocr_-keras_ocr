@@ -1,4 +1,6 @@
-
+**
+## Reconnaissance Écriture Manuscrite (OCR) avec EasyOCR,Keras-OCR et tesseract
+**
 
 # 1:Reconnaissance Écriture Manuscrite (OCR) avec EasyOCR
 
@@ -20,7 +22,7 @@ Pour installer EasyOCR, vous pouvez utiliser la commande suivante pour toutes le
 ```bash
 pip install easyocr
 ```
-Pour installer une langue spécifique, utilisez une commande comme celle-ci (par exemple, pour le chinois) :
+Pour installer une langue spécifique, utilisez une commande comme celle-ci (par exemple, pour le français) :
 ```bash
 pip install easyocr[fr]
 ```
@@ -131,6 +133,95 @@ Voici quelques captures d'écran du projet :
 EasyOCR et Keras-OCR sont deux bibliothèques puissantes pour la reconnaissance de texte dans les images. EasyOCR est particulièrement utile pour les applications multilingues rapides et simples. Il est compatible avec 80 langues, tandis que Keras-OCR utilise l'anglais par défaut, mais permet le fine-tuning pour d'autres langues. Keras-OCR offre une flexibilité avancée et des options de fine-tuning pour les utilisateurs nécessitant des ajustements spécifiques.
 
 Pour plus d'informations, consultez les documentations officielles d'[EasyOCR](https://github.com/JaidedAI/EasyOCR) et de [Keras-OCR](https://github.com/faustomorales/keras-ocr).
+
+
+3:Reconnaissance Écriture Manuscrite (OCR) avec pytesseract
+
+Bien sûr, voici le README avec le paragraphe souligné pour mettre en évidence cette information :
+
+---
+
+# 3:Reconnaissance Écriture Manuscrite (OCR) avec PyTesseract
+
+PyTesseract est une solution OCR open-source qui extrait le texte imprimé ou écrit des images. Il a été développé à l’origine par **Hewlett-Packard** et est actuellement maintenu par Google. Tesseract prend en charge la reconnaissance linguistique pour plus de **100 langues**.
+
+
+
+## 1/Configuration de Tesseract
+
+### Installation de Tesseract
+
+Pour utiliser PyTesseract, vous devez d'abord installer Tesseract. Vous pouvez le faire en utilisant les commandes suivantes :
+
+```bash
+# Installer Tesseract OCR
+!apt-get install -y tesseract-ocr
+!apt-get install -y libtesseract-dev
+
+# Installer PyTesseract
+!pip install pytesseract
+```
+
+### 2/Configuration de PyTesseract
+
+Une fois Tesseract installé, vous devez vous assurer que le chemin du fichier exécutable de Tesseract est correctement configuré. Voici un exemple de configuration sous Python :
+
+```python
+import pytesseract
+
+# Définir le chemin de l'exécutable Tesseract
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
+```
+
+## 3/Fonctionnement de PyTesseract
+
+PyTesseract est un wrapper Python pour l'OCR Tesseract de Google. Il peut lire tous les fichiers image supportés par des bibliothèques d’imagerie telles que Leptonica et Pillow, y compris les formats JPEG, PNG, GIF, BMP, TIFF et bien d’autres. Il est donc souvent utilisé dans les cas d'utilisation de l'OCR en Python pour convertir des images en texte."
+
+### Utilisation de PyTesseract
+
+La reconnaissance de texte à l'aide de PyTesseract peut se faire en une seule ligne de code. Voici un exemple simple d'utilisation :
+
+```python
+import cv2
+import pytesseract
+
+
+img = cv2.imread('path_to_your_image.jpg')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+text = pytesseract.image_to_string(gray)
+
+print(text)
+```
+
+## 4/Limites de Tesseract
+
+Bien que Tesseract soit puissant, il a certaines limites :
+- **Qualité de l'image** : Tesseract est sujet à des erreurs si la séparation entre le premier plan et l'arrière-plan de l'image n'est pas claire.
+- **Écriture manuscrite** : Tesseract ne reconnaît pas l'écriture manuscrite.
+
+### Remarque
+
+Dans notre cas, PyTesseract ne fonctionne pas bien avec des images comme Genova.png. Cependant, **il fonctionne beaucoup mieux avec des images comme Extrait_IQOA_data.png, en particulier celles contenant des tableaux.
+
+## Exemples d'Images du Projet
+
+Voici quelques captures d'écran du projet :
+
+
+![Exemple d'image 1]![image](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/43563966-e620-4be5-90ec-a576a85b7a5d)
+
+
+
+![Exemple d'image 2]![Screenshot 2024-05-28 124223](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/48f9eb9a-015c-4fe2-b0d5-a3c1c84af333)
+
+
+## 5/Conclusion
+
+PyTesseract est une bibliothèque puissante pour la reconnaissance de texte dans des formats PDF ou des images sans arrière-plans complexes, comme dans notre exemple. Bien qu'il ait des limitations avec les écritures manuscrites et certaines images de faible qualité, il reste un outil très utile pour extraire du texte imprimé de diverses images.
+
+Pour plus d'informations, consultez la [documentation officielle de Tesseract](https://github.com/tesseract-ocr/tesseract) et de [PyTesseract](https://github.com/madmaze/pytesseract).
+
+
 
 
 
