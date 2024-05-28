@@ -44,12 +44,13 @@ Pour utiliser EasyOCR, vous devez importer les bibliothèques nécessaires pour 
 
 Voici quelques captures d'écran du projet :
 
-![Exemple d'image 1](![easy_ocr](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/f4df1765-c9de-44ff-b4af-538f984a8771)
+### Image avec EasyOCR
 
+![easy_ocr](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/f4df1765-c9de-44ff-b4af-538f984a8771)
 
-![Exemple d'image 2]![easy_ocr](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/798ad456-685b-40d8-a8d1-6663320a8e1d)
+### Tableau des résultats
 
-
+![result_table](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/798ad456-685b-40d8-a8d1-6663320a8e1d)
 
 ## Conclusion
 
@@ -121,12 +122,8 @@ Par défaut, la prédiction sera tracée sous forme de boîtes autour du texte d
 ## Images du Projet
 
 Voici quelques captures d'écran du projet :
-
-![Exemple d'image 1]![Screenshot 2024-05-28 122128](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/745a208c-2d24-4148-97fc-339680b30b1d)
-
-
-![Exemple d'image 2](path/to/your/image2.png)
-
+### Image avec  Keras-OCR
+![Screenshot 2024-05-28 122128](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/745a208c-2d24-4148-97fc-339680b30b1d)
 
 ## Conclusion
 
@@ -207,12 +204,9 @@ Dans notre cas, PyTesseract ne fonctionne pas bien avec des images comme Genova.
 
 Voici quelques captures d'écran du projet :
 
-
+### Images avec   PyTesseract
 ![Exemple d'image 1]![image](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/43563966-e620-4be5-90ec-a576a85b7a5d)
-
-
-
-![Exemple d'image 2]![Screenshot 2024-05-28 124223](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/48f9eb9a-015c-4fe2-b0d5-a3c1c84af333)
+![Screenshot 2024-05-28 124223](https://github.com/khadidjasift/OCR_easyocr_-keras_ocr/assets/37297751/48f9eb9a-015c-4fe2-b0d5-a3c1c84af333)
 
 
 ## 5/Conclusion
